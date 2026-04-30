@@ -39,9 +39,11 @@ pip install ultralytics opencv-python
 ```
 
 ## Run
+```bash
 python main.py
 # or
 python3 main.py
+```
 
 Use `python` or `python3` depending on your system.
 
