@@ -29,11 +29,21 @@ It identifies the object type, draws bounding boxes around detected objects, dis
 6. The total number of detected objects is displayed.
 7. The processed frame is shown in real time.
 
-## How to Run
+## Requirements
+* Python 3.x
+* Webcam or RTSP stream
+
+## Setup
 ```bash
 pip install ultralytics opencv-python
-python main.py
 ```
+
+## Run
+python main.py
+# or
+python3 main.py
+
+Use `python` or `python3` depending on your system.
 
 ## Notes
 * Make sure a webcam or RTSP source is available.
@@ -45,23 +55,3 @@ python main.py
 * Save detection results to a file
 * Add support for uploading video files
 * Improve object counting by category
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
