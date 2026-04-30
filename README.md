@@ -30,7 +30,6 @@ It identifies the object type, draws bounding boxes around detected objects, dis
 7. The processed frame is shown in real time.
 
 ## How to Run
-
 ```bash
 pip install ultralytics opencv-python
 python main.py
