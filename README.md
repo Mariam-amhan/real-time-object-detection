@@ -3,8 +3,7 @@
 ## Overview
 A real-time object detection system built using Python, YOLOv8, and OpenCV.
 
-This project detects objects from a live webcam or video stream in real time.  
-It identifies the object type, draws bounding boxes around detected objects, displays the confidence score, counts detected objects, and shows the FPS performance on the screen.
+This project performs real-time detection of the following object classes from a live webcam or video stream: Person, Dog, Cat, and Car. It identifies each detected object, draws bounding boxes, displays confidence scores, counts detected objects, and shows the FPS for performance monitoring.ance on the screen.
 
 ## Tech Stack
 - Python
