@@ -56,3 +56,12 @@ Use `python` or `python3` depending on your system.
 * Save detection results to a file
 * Add support for uploading video files
 * Improve object counting by category
+
+## Challenges
+- Implemented multi-threaded frame capture to reduce latency.
+- Managed frame buffering to avoid processing delays.
+- Optimized the application to run on both CPU and CUDA-supported devices.
+- Filtered detections to focus only on the required object classes.
+
+## Author
+Mariam Amhan
