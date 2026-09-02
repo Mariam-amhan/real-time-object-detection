@@ -63,5 +63,4 @@ Use `python` or `python3` depending on your system.
 - Optimized the application to run on both CPU and CUDA-supported devices.
 - Filtered detections to focus only on the required object classes.
 
-## Author
-Mariam Amhan
+
