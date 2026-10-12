@@ -101,14 +101,19 @@ The YOLOv8 model's detections are filtered to four selected classes, keeping the
 - Detection accuracy and processing performance depend on the model, hardware, lighting, and video quality.
 - FPS values are displayed for monitoring, but end-to-end capture-to-display latency is not currently measured.
 
+
 ## Future Improvements
 
 - Add a graphical user interface (GUI)
 - Support video file uploads
 - Save detection results to files
 - Implement object tracking with persistent IDs
-- Measure capture-to-display latency
+- Measure end-to-end capture-to-display latency
+- Compare different queue sizes and frame-dropping strategies, including keeping only the latest frame
+- Separate the detection and display logic more clearly using a producer-consumer architecture
+- Benchmark FP16 (half-precision) inference on compatible CUDA GPUs to evaluate potential FPS improvements
 - Improve frame-buffering and performance monitoring
+
 
 ## Feedback
 
